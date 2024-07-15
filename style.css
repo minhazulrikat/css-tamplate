@@ -1,0 +1,96 @@
+*{
+    font-family: 'Trebuchet MS', sans-serif;
+    box-sizing: border-box;
+}
+.main{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+body{
+    background-color: #f2f4f8;
+    height: 10000px;
+}
+.container{
+    /* width: 270px; */
+    background: white;
+    p{
+        background: #6e2594;
+        color: white;
+        padding: 3px 10px;
+        display: inline-block;
+        border-top-right-radius: 15px;  
+        border-bottom-right-radius: 15px;   
+
+     }
+     h4{
+        padding-left: 10px;
+     }
+     h4:hover{
+        color: #ef4a23;
+        text-decoration: underline;
+        
+     }
+     
+}
+.image{
+    padding: 40px 10px;
+    text-align: center;
+    margin-bottom: 10px;
+    border-bottom: 3px solid #f2f2f2;
+    img{
+        width:100%;
+    }
+}
+
+.list{
+ ul{
+    padding-left:20px;
+    padding-bottom: 30px;
+  
+    border-bottom: 3px solid #f2f2f2;
+ }
+ li{
+    font-size: 15px;
+    opacity: .8;
+    margin: 10px 0;
+ }
+}
+.price{
+    h2{
+        text-align: center;
+        color: #ef4a23;
+        margin: 30px 0;
+    }
+}
+.buttons{
+    padding: 20px 10px;
+    button{
+        width: 100%;
+        padding: 10px;
+        font-size: 16px;
+        margin-bottom: 15px;
+        border-radius: 5px;
+        border: none;
+        outline: none;
+        
+    }
+    .btn1{
+        color: #3749bb;
+        font-weight: 600;
+        background: #f5f6fc;
+    }
+    .btn1:hover{
+        color: white;
+        background: #3749bb;
+    }
+
+    .btn2{
+        background: #fff;
+        color:#666666;
+    }
+    .btn2:hover{
+        background: #f5f6fc;
+        color: black;
+    }
+}
